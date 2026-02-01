@@ -1,0 +1,52 @@
+# === .NET / C# ===
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Publishing output
+publish/
+
+# .NET Core / .NET 5+ specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# === IDE & Editors ===
+# Neovim / Vim (Specific to your workflow)
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+.netrwhist
+undo/
+tags
+
+# VS Code (in case you use it for extensions)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# === OS Specific ===
+# Linux
+.directory
+.fuse_hidden
+.Trash-*
+.nfs*
+
+# === Secrets & Environment ===
+# Never commit your keys/secrets! (Critical for safety)
+.env
+.env.local
+.env.*.local
+*.user
+*.userosscache
+
+# === Packages ===
+# NuGet Packages
+*.nupkg
+# Restore folder
+packages/
