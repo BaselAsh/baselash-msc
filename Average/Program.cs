@@ -12,4 +12,4 @@ Console.Write("Enter The Third Number: ");
 n3 = int.Parse(Console.ReadLine()!);
 
 double average = (n1 + n2 + n3) / 3;
-Console.WriteLine("The average of the 3 numbers is " + average);
+Console.WriteLine("The average of the three numbers is " + average);
