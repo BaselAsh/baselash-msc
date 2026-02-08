@@ -1,5 +1,4 @@
-﻿
-string name;
+﻿string name;
 int age;
 string city;
 
@@ -14,5 +13,3 @@ city = Console.ReadLine()!;
 Console.WriteLine("My name is " + name + ".");
 Console.WriteLine("I'm " + age + " Years Old.");
 Console.WriteLine("I live in " + city + ".");
-
-
